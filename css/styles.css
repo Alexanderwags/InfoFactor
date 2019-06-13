@@ -41,7 +41,7 @@
 }
 .flex-agrupar > .recurso1 {
   
-  width: 300px;
+  width: 29.5rem;
   
 }
 /*body*/
@@ -51,20 +51,64 @@
   justify-content: center;
   flex-wrap: wrap;
   align-content: space-around;
-  height: 100px;
-  background-color: cyan;
+  
+  background-color: rgb(1,176,243);
 }
 .flex-content > p{
+  padding: 2%;
+  width: 341px;
   
- 
-  margin-right: 3%;
   
 }
 .flex-content > img{
     
-    height: 80px;
-    
+    height: 58px;
+    width: 255px;
+    padding: 2%;
   
+}
+.info1{
+
+	background-color: rgb(251,251,251);
+	width: 50%;
+	height: 29.0625rem;
+}
+.info2{
+	background-color: rgb(241,241,241);
+
+	width: 50%;
+	height: 29.0625rem;
+}
+.info2 .youtube{
+	 
+     margin-top: 20%;
+     margin-left: 28%;
+     
+}
+.info2 .youtube iframe{
+	 
+    
+     margin-left: 15%;
+     
+}
+.info2  .youtube{
+   width: 24rem;
+   height: 20rem;
+   background-color: black;
+}
+.info2 .youtube .texto_youtube img{
+     float: left;
+	 width: 2.8125rem;    
+}
+.info3{
+	background-color: rgb(1,49,98);
+	width: 100%;
+	height: 17.6875rem;
+}
+.info4{
+	background-color: white;
+	width: 100%;
+	height: 12.1875rem;
 }
 
 
@@ -83,7 +127,7 @@
   padding: 1%;
   border-radius: 15%;
   border: none;
-  background-color: cyan;
+  background-color: rgb(1,176,243);
   
 }
 .boton:hover{
@@ -113,15 +157,17 @@
 	}
 	.flex-agrupar > .recurso1 {
 	  
-	  width: 300px;
-	  
+	  width: 29.5rem;
 	}
 	
 
 }
 
 @media (max-width: 599px) {
-
+    
+    html{
+    	font-size: 14px;
+    }
 	.flex-container > #portada2{
 	
 		height: 250px;
@@ -133,22 +179,48 @@
 		height: 250px;
 		
 	}
+	.flex-agrupar {
+	  position: absolute;
+	  top: 21%;
+	  display: flex;
+	  justify-content: center;
+	  flex-wrap: wrap;
+	  align-content: space-around;
+	  
+	}
 	.flex-agrupar > .centrado {
-
+      position: absolute;
+      top: 8%;
+      left: 1%;
 	  width: 200px;
 	  color: white;
 	  text-align: left;
 	   
 	}
+	
+	.
 	.flex-agrupar > .recurso1 {
 	  
-	  width: 200px;
+	  width: 29.5rem;
 	  
 	}
     .flex-agrupar > .recurso1 img{
-	  
-	  width: 200px;
+	   position: absolute;
+	   left: 50%;
+	   width: 17rem;
 	  
 	}
+	.info1{
+
+	    background-color: rgb(251,251,251);
+		width: 100%;
+		height: 29.0625rem;
+    }
+	.info2{
+		background-color: rgb(241,241,241);
+		width: 100%;
+		height: 29.0625rem;
+    }
+
 	  
 }
