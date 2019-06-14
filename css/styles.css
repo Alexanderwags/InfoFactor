@@ -343,7 +343,7 @@ input:-ms-input-placeholder {
 }
 
 
-@media (min-width: 1171px) {
+@media (min-width: 1201px) {
 
 	.flex-container > #portada2{
 	
@@ -366,11 +366,29 @@ input:-ms-input-placeholder {
 
 }
 /*Ajustamiento responsing a pantalla de 601px a 1170px */
-@media (min-width: 601px) and (max-width: 1170px){
+@media (min-width: 601px) and (max-width: 1200px){
      
     html{
     	font-size: 14px;
     }
+    .flex-agrupar .centrado .encabezado{
+	    position: relative;
+	    top:  2.8rem;
+	    
+    }
+    .flex-agrupar .centrado .encabezado2{
+	    position: relative;
+	    top: 2.4rem;
+	    
+    }
+    .flex-agrupar .centrado .encabezado3{
+	   position: relative;
+	   top: 2.2rem;
+    }
+	.flex-agrupar .centrado  .centrar_boton{
+	   position: relative;
+	   top: 2.6rem;
+	}
 	.flex-agrupar > .centrado {
       position: absolute;
       right:  -12%;
